@@ -1,4 +1,5 @@
 # Constant_pH_MD
+create inputfiles from Charmm-GUI website, constant_pH function.
 
 1. ./Pre_em.sh
 2.    

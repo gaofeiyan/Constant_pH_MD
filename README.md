@@ -25,3 +25,13 @@ done
 ./production.sh
 
 
+## Calculate Propka
+
+chmod +x gro2pdb_all_pH.sh
+
+./gro2pdb_all_pH.sh
+
+chmod +x run_propka_all_pH.sh
+
+./run_propka_all_pH.sh
+

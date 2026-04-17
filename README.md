@@ -1,3 +1,16 @@
+Final fix：
+ There was a bug in README file provided by author: in line 64, "set pstep = step6.6_equilibration" should be "set pstep = step6.6_equilibration_BUF"
+ The right run file README here.
+
+
+
+
+
+
+
+
+
+
 # Constant_pH_MD
 create inputfiles from Charmm-GUI website, constant_pH function.
 

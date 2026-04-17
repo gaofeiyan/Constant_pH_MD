@@ -15,7 +15,7 @@ create inputfiles from Charmm-GUI website, constant_pH function.
 ### bash
 
 ```
-for pH in 0.00 1.00 2.00 3.00 4.00 5.00 6.00 7.00 8.00 9.00 10.00 11.00 12.00
+for pH in pH_0.00 pH_1.00 pH_2.00 pH_3.00 pH_4.00 pH_5.00 pH_6.00 pH_7.00 pH_8.00 pH_9.00 pH_10.00 pH_11.00 pH_12.00
 do
     cp step6.6_equilibration_BUF.gro pH_${pH}/pH_${pH}_0.gro
 done

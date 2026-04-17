@@ -68,7 +68,7 @@ while ( ${cnt} <= ${cntmax} )
             sh sed.sh ${pstep}.gro
             gmx grompp -f ${i}.mdp -o ${i}/${istep}.tpr -c ${pstep}.gro -t ${pstep}.cpt -p topol.top -n index.ndx
         endif
-        gmx mdrun -v -deffnm ${i}/${istep}
+        gmx mdrun -v -deffnm ${i}/${istep} -nb gpu -pme gpu -bonded gpu -update gpu
         @ cnt += 1
     end
 end

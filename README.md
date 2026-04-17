@@ -1,8 +1,10 @@
 # Constant_pH_MD
 create inputfiles from Charmm-GUI website, constant_pH function.
 
-1. ./Pre_em.sh
-2.    
+1. conda activate constantph
+
+2. ./Pre_em.sh
+3.    
 ```
  gmx make_ndx -f step6.6_equilibration_BUF.gro -n index.ndx
 ```
@@ -10,7 +12,7 @@ create inputfiles from Charmm-GUI website, constant_pH function.
 ### SOLU_MEM (including protein and membrane)  SOLV (including all ions and solvate and BUF)
 
 
-3. ## put step6.6_equilibration_BUF.gro into each pH folder as starting structure for production runs
+4. ## put step6.6_equilibration_BUF.gro into each pH folder as starting structure for production runs
 
 ### bash
 
